@@ -21,7 +21,7 @@ header{
 .hamburger{
   display: flex;
   justify-content: flex-end;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(63, 63, 63);
   color: white;
 }
 .menu{
@@ -58,11 +58,6 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-  }
-  .navbar{
-    background-color: rgb(117, 117, 117);
-    display: flex;
-    justify-content: space-around;
   }
   .hamburger{
     display: flex;
@@ -101,20 +96,31 @@ footer{
   header{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+  }
+  .logo{
+    display: flex;
+    justify-self: flex-start;
   }
   .hamburger{
     display: none;
   }
+  .navbar{
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: flex-end;
+  }
   .menu{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(63, 63, 63);
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  li{
+    margin-right: 40px;
   }
   main{
     display: flex;
