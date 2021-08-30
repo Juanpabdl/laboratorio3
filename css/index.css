@@ -98,15 +98,10 @@ footer{
   header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
   h1{
-    display: flex;
-    justify-self: self-end;
-  }
-  .logo{
-    display: flex;
-    justify-self: flex-start;
+    margin-left: 37%;
   }
   .hamburger{
     display: none;
